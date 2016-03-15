@@ -1,8 +1,9 @@
 #!/usr/bin/python
-import sys, getopt
+import sys
 
 
 def intersect(a, b):
+    """Calculates the intersection of two lists. Elements must be comma separated in each list"""
     if a is None:
         return b
     if b is None:
